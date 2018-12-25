@@ -41,4 +41,10 @@ object Basics extends App{
 
   //prevent driver code from exiting while code is running
   outputSink.awaitTermination()
+
+  //seeing the results
+  for (i <- 1 to 5) {
+    spark.sql("select * from activity_count").show()
+    Thread.sleep(1000)
+  }
 }
