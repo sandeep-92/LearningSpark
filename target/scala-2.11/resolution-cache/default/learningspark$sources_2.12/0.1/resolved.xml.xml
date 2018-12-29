@@ -4,7 +4,7 @@
 		module="learningspark$sources_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20181226025647"
+		publication="20181230011531"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
